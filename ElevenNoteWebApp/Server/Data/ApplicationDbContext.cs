@@ -13,5 +13,8 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
         IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
     {
     }
+
+    public DbSet<Note> Notes { get; set; }
+    public DbSet<Category> Categories { get; set; }
 }
 
