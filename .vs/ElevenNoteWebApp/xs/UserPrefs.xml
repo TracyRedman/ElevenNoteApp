@@ -2,5 +2,27 @@
   <MonoDevelop.Ide.ItemProperties.ElevenNoteWebApp.Shared FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ElevenNoteWebApp.Client FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ElevenNoteWebApp.Server FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ElevenNoteWebApp.Server PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ElevenNoteWebApp/Server/Readme.txt">
+    <Files>
+      <File FileName="ElevenNoteWebApp/Server/Readme.txt" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ElevenNoteWebApp" expanded="True">
+            <Node name="ElevenNoteWebApp.Server" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
