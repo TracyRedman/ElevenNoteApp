@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ElevenNoteWebApp.Server.Models
 {
-    public class Note
+    public class NoteEntity
     {
         [Key]
         public int Id { get; set; }
@@ -15,7 +15,7 @@ namespace ElevenNoteWebApp.Server.Models
         public string Content { get; set; }
 
         public int CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        public virtual CategoryEntity CategoryEntity { get; set; }
         [Required]
         public DateTimeOffset CreatedUtc { get; set; }
         public DateTimeOffset? ModifiedUtc { get; set; }

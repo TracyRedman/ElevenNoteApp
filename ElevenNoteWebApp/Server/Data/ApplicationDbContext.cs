@@ -14,7 +14,8 @@ public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
     {
     }
 
-    public DbSet<Note> Notes { get; set; }
-    public DbSet<Category> Categories { get; set; }
+    public DbSet<NoteEntity> Notes { get; set; }
+    public DbSet<CategoryEntity> Categories { get; set; }
+
 }
 
